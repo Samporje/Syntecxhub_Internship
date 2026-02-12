@@ -1,9 +1,3 @@
-# ===============================
-# House Price Prediction Project
-# Linear Regression
-# ===============================
-
-# 1. Import Libraries
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -134,3 +128,4 @@ sample_house = X.iloc[0].values.reshape(1, -1)
 predicted_price = loaded_model.predict(sample_house)
 
 print("\nExample Predicted House Price:", predicted_price[0])
+
